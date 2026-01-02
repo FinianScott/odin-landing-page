@@ -12,6 +12,7 @@
 
 .header-link{
     display: flex;
+    gap: 8px;
     
 
 }
@@ -31,4 +32,8 @@
 }
 .img{
     flex: 1;
+}
+
+a{
+    text-decoration: none;
 }
