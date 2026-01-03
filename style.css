@@ -6,25 +6,21 @@ body {
   display: flex;
   flex-flow: column;
 }
-
 .hero{
     display: flex;
     flex-flow: column;
     background-color: #1F2937;
 }
-
 .header{
     display: flex;
     justify-content: space-between;
     margin: 0 48px;
     margin-top: 8px;
 }
-
 .header-link{
     display: flex;
     gap: 24px;
 }
-
 .hero-content{
     margin: 48px;
     display: flex;
@@ -32,7 +28,6 @@ body {
     align-items: stretch;
     gap: 24px;
 }
-
 .hero-blurb{
     flex:1;
     display: flex;
@@ -47,11 +42,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 a{
     text-decoration: none;
 }
-
 a, .sub-text, .img{
     font-size: 18px;
     color: #E5E7EB;
@@ -74,5 +67,5 @@ button{
     flex:none;
     width: 100px;
     padding: 4px 0;
-    border-radius: 13%;
+    border-radius: 11%;
 }
