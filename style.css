@@ -45,7 +45,7 @@ body {
 a{
     text-decoration: none;
 }
-a, .sub-text, .img, .CTA-info{
+a, .sub-text, .img, .CTA-info, .footer{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -146,4 +146,11 @@ button{
 }
 .CTA-button{
     border-color: #F9FAF8;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 24px 0px;
 }
