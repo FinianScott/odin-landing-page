@@ -67,9 +67,10 @@ button{
     flex:none;
     width: 100px;
     padding: 4px 0;
-    border-radius: 11%;
+    border-radius: 10%;
 }
 .info{
+    padding: 24px 0;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -82,13 +83,25 @@ button{
 .info-content{
     display: flex;
     flex-flow: row;
+    flex-wrap: wrap;
 }
 .photos{
+    width: 150px;
     display: flex;
     flex-flow: column;
     align-items: center;
     align-content: center;
+    gap: 24px;
+    margin: 24px;
+    
 }
 .photo-subtext{
     text-align: center;
+    color: #1F2937;
+}
+.icon{
+    border: medium solid #3882F6;
+    width: 100%;
+    height: 150px;
+    border-radius: 10%;
 }
