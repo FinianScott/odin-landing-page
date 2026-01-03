@@ -69,3 +69,26 @@ button{
     padding: 4px 0;
     border-radius: 11%;
 }
+.info{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.info-content{
+    display: flex;
+    flex-flow: row;
+}
+.photos{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+}
+.photo-subtext{
+    text-align: center;
+}
