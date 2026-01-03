@@ -45,7 +45,7 @@ body {
 a{
     text-decoration: none;
 }
-a, .sub-text, .img{
+a, .sub-text, .img, .CTA-info{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -59,16 +59,16 @@ a, .sub-text, .img{
     color: #F9FAF8;
 }
 button{
+    flex:none;
+    width: 100px;
+    padding: 4px 0;
+    border-radius: 8%;
     background-color: #3882F6;
     font-size: 14px;
     color: #E5E7EB;
 }
 .hero-button{
-    flex:none;
-    width: 100px;
-    padding: 4px 0;
     border: none;
-    border-radius: 8%;
 }
 .info{
     padding: 24px 0;
@@ -126,4 +126,24 @@ button{
     font-weight: 900;
     color: #1F2937;
     
+}
+.CTA{
+    margin: 48px 100px;
+    padding: 32px 0;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3%;
+}
+.CTA-content{
+    display: flex;
+    flex-flow: column;
+}
+.CTA-title{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.CTA-button{
+    border-color: #F9FAF8;
 }
