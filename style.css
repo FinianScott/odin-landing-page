@@ -27,24 +27,29 @@ body {
     margin: 48px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 12px;
+    align-items: stretch;
+    gap: 24px;
 }
 
 .hero-blurb{
     flex:1;
     display: flex;
     flex-flow: column;
+    
 }
 .img{
     flex: 1;
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
 }
 
 a{
     text-decoration: none;
 }
 
-a, .sub-text{
+a, .sub-text, .img{
     font-size: 18px;
     color: #E5E7EB;
 }
